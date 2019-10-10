@@ -1,3 +1,43 @@
-h1{
-    vertical-align: top;
+.Head{
+    background-color: #474E51;
+    display: grid;
+    grid-template-areas: 'house home asist about person contact';
+    padding: 3px;
+}
+#body{
+    display: grid;
+    border: solid;
+}
+.icons{
+    border: 3px solid #000000;
+    padding: 5px;
+    font-size: 1.38em;
+}
+.nav{
+    padding: 5px;
+    font-size: 1.38em;
+    text-align: left;
+}
+#profile_pic{
+    width: 350px; 
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#name{
+    font-size: 3em;
+    color: #FA7921;
+    float: left;
+    margin-left: 10px;
+}
+a{
+    color: #FA7921;
+    text-decoration: none;
+}
+.icons{
+    filter: invert(100%);
+}
+html{
+    background-color: #848C8E;
 }

@@ -4,10 +4,6 @@
     grid-template-areas: 'house home asist about person contact';
     padding: 3px;
 }
-#body{
-    display: grid;
-    border: solid;
-}
 .icons{
     border: 3px solid #000000;
     padding: 5px;
@@ -26,7 +22,7 @@
     margin-left: 30px;
 }
 #name{
-    font-size: 3em;
+    font-size: 4em;
     color: #FA7921;
     float: left;
     margin-left: 10px;
@@ -40,4 +36,19 @@ a{
 }
 html{
     background-color: #848C8E;
+}
+#bio{
+    font-size: 2em;
+    color: #000000;
+    float: top;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#social{
+    font-size: 1.3em;
+    color: #FA7921;
+    float: right;
+    margin-left: 30px;
+    margin-right: 20px;
 }

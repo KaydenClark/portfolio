@@ -4,51 +4,61 @@
     grid-template-areas: 'house home asist about person contact';
     padding: 3px;
 }
+#body{
+    display: grid;
+    border: solid;
+}
 .icons{
     border: 3px solid #000000;
     padding: 5px;
     font-size: 1.38em;
+    filter: invert(100%);
 }
 .nav{
     padding: 5px;
     font-size: 1.38em;
     text-align: left;
 }
+.bio{
+    border-style: hidden;
+    width: 800px;
+    height: auto;
+}
 #profile_pic{
     width: 350px; 
     height: auto;
     float: left;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 150px;
 }
 #name{
     font-size: 4em;
     color: #FA7921;
     float: left;
-    margin-left: 10px;
+    margin-left: 40px;
+    margin-bottom: -5px;
 }
 a{
     color: #FA7921;
     text-decoration: none;
 }
-.icons{
-    filter: invert(100%);
-}
 html{
     background-color: #848C8E;
 }
 #bio{
-    font-size: 2em;
+    font-size: 1.8em;
     color: #000000;
-    float: top;
     float: left;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 40px;
 }
-#social{
-    font-size: 1.3em;
+h3{
+    font-size: 1.5em;
+    margin-left: 540px;
     color: #FA7921;
-    float: right;
-    margin-left: 30px;
-    margin-right: 20px;
+    float: bottom;
+}
+.social{
+    filter: invert(100%);
+    width: 20px;
+    height: auto;
 }

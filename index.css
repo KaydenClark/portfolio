@@ -59,6 +59,7 @@ h3{
 }
 .social{
     filter: invert(100%);
-    width: 20px;
+    width: 25px;
     height: auto;
+    padding: 10px;
 }

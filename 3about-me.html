@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <head>
         <link rel="icon" href="favicon.ico">
         <title>
@@ -8,13 +9,14 @@
     </head>
 <body>
     <section id="Header">
-        <fieldset>
-            <Legend>
-                <Header>
-                    <img src="house-24px.svg"/><a href="index.html"><b>Home</b></a> <img src="assistant-24px.svg"><a href="3about-me.html"><b>About Me</b></a> <img src="person_add-24px.svg"><a href="2index.html"><b>Contact Me</b></a>
-                </Header>
-            </Legend>
-        </fieldset>
-    </section> 
-</body>
+            <Header class="Head">
+                <a href="index.html"><img class= "icons" grid-area= "house" src="house-24px.svg"/></a>
+                <a href="index.html" grid-area="home" class="nav"><b>Home</b></a> 
+                <a href="3about-me.html"><img class= "icons" grid-area="asist" src="assistant-24px.svg"></a>
+                <a href="3about-me.html" grid-area="about" class="nav"><b>About Me</b></a> 
+                <a href= "2index.html"><img class= "icons" src="person_add-24px.svg" grid-area="person"></a>
+                <a href="2index.html" grid-area="contact" class="nav"><b>Contact Me</b></a>
+                <a href="#" grid-area="blank"></a>
+            </Header>
+        </body>
 </html>
